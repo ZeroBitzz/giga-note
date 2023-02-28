@@ -5,8 +5,11 @@ const ejs = require('ejs')
 const app = express()
 const port = 3000
 
+app.use(express.static(__dirname + '/public')); // load static files from public directory
+
 // set view engine
 app.set('view engine', 'ejs')
+
 
 // home route
 app.get('/', function(req, res){
