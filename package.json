@@ -1,17 +1,19 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "take notes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Broderick",
+  "license": "MIT",
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.16.4",
     "fs": "^0.0.1-security"
+  },
+  "engines": {
+    "node": "18.12.1"
   }
 }
