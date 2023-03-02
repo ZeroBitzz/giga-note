@@ -59,7 +59,7 @@ app.delete('/api/notes/:id', function(req, res, next){
 })
 
 // server setup
-app.listen(port, function(err){
+app.listen(process.env.PORT || 3000, function(err){
     if(err) console.log(err)
-    console.log(`server listening on port ${port}`)
+    console.log(`server listening on port ${process.env.PORT || 3000}`)
 })
